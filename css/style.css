@@ -46,6 +46,10 @@ img {
     vertical-align: middle;
 }
 
+p {
+    margin: 0 0 30px 0;
+}
+
 #about {
     background: #2B2B2B;
     padding-top: 96px;
@@ -55,14 +59,33 @@ img {
     box-sizing: border-box;
 }
 
+#about p {
+    line-height: 30px;
+    color: #7A7A7A;
+}
+
 #skills {
 	background: #2b2b2b;
 	padding-top: 25px;
 	padding-bottom: 15px;
 }
 
+#skillsList {
+	padding-top: 40px;
+}
+
 #skills .header-col {
     padding-top: 9px;
+}
+
+#about .download .button {
+    margin-top: 140px;
+    margin-left: 20px;
+    background: #444;
+}
+
+#about a{
+    color: #fff;
 }
 
 #row-banner{
@@ -121,6 +144,10 @@ img {
     color: #F06000;
 }
 
+.contact-details{
+	padding: 40px;
+}
+
 .profile-pic {
     display: block;
     margin-left: auto;
@@ -154,6 +181,21 @@ img {
 .menu-wrap {
 	padding-bottom: 80px;
 }
+
+.button{
+    font: 16px/30px 'opensans-bold', sans-serif;
+    background: #11ABB0;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 0;
+    color: #fff;
+    padding: 12px 20px;
+    margin-bottom: 18px;
+    border: none;
+    cursor: pointer;
+    height: auto;
+    border-radius: 3px;
+}    
 
 header .banner-text h3 {
     font: 17px/1.9em 'librebaskerville-regular', serif;
@@ -301,6 +343,7 @@ header .social li {
     float: left;
     padding: 0;
     text-align: left;
+
 }
 
 .bars .skills {
