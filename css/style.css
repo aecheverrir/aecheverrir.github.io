@@ -32,6 +32,15 @@ h3{
 	text-align: center;
 }
 
+ul#nav {
+    min-height: 48px;
+    width: auto;
+    text-align: center;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.15);
+    z-index: 100;
+}
+
 ul, ol{
     list-style: none;
 }
@@ -135,7 +144,7 @@ p {
 }
 
 .smoothscroll:hover {
-	color: white;
+	color: #F06000;
 	text-decoration: none;
 }
 
