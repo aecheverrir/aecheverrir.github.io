@@ -6,6 +6,7 @@ header {
 	background-image: url("../images/background.jpg");
 	color: #fff;
 	text-align: center;
+    padding-bottom: 40px;
 
 }
 
@@ -33,7 +34,7 @@ h3{
 }
 
 ul#nav {
-    min-height: 48px;
+    min-height: 38px;
     width: auto;
     text-align: center;
     position: fixed;
@@ -210,6 +211,13 @@ header .banner-text h3 {
     font: 17px/1.9em 'librebaskerville-regular', serif;
     width: 80%;
     text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    #nav li{
+        font-size: 8px;
+    }
+
 }
 
 header .social {

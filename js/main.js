@@ -61,3 +61,14 @@ function prevSlider(){
 }
 })  
 
+$(window).scroll(function(){
+	if($(this).scrollTop()>1000)
+	{
+		$("ul#nav").css("background-color", "rgba(0, 0, 0, 0.15)");
+	}
+	else{
+		$("ul#nav").css("background-color", "rgba(0, 0, 0, 0.0)");
+	}
+	
+});
+
