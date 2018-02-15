@@ -38,7 +38,7 @@ ul#nav {
     width: auto;
     text-align: center;
     position: fixed;
-    background: rgba(0, 0, 0, 0.15);
+    background: rgba(0, 0, 0, 0.0);
     z-index: 100;
 }
 
