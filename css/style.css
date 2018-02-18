@@ -107,10 +107,17 @@ p {
 }
 
 #mineP {
-	color: #000000c9;
+	color: white;
 }
 #mineH1 {
 	color: fff;
+}
+
+#musicH1 {
+    color:white;
+}
+#musicP1 {
+    color:white;
 }
 
 #portfolio {
@@ -128,6 +135,10 @@ p {
     margin-bottom: 48px;
     color: #95A3A3;
     box-sizing: border-box;
+}
+
+#festivP {
+    color: white;
 }
 
 

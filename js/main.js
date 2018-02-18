@@ -60,9 +60,8 @@ function prevSlider(){
 	$('.slider li:nth-child('+ imgPos +')').show(); // Muestra el Slide seleccionado
 }
 })  
-
 $(window).scroll(function(){
-	if($(this).scrollTop()>1000)
+	if($(this).scrollTop()>960)
 	{
 		$("ul#nav").css("background-color", "rgba(0, 0, 0, 0.15)");
 	}
@@ -71,4 +70,3 @@ $(window).scroll(function(){
 	}
 	
 });
-
